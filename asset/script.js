@@ -1,21 +1,16 @@
 jQuery(document).ready(function(){
 
-    let $nombre1 = $('#nombre1')
-    let $nombre2 = $('#nombre2')
+    let $nombre1 = $('#nombre1').val()
+    let $nombre2 = $('#nombre2').val()
     let $result = $('#result')
     let $ok = $('#ok')
-    let somme = $nombre1 + $nombre2
+    let $somme = parseInt(0)
     
     
     $ok.click(function(){
 
-        $result.html=(somme)
-        $result.text(textarea)
+        $result.text($somme)
 
-
-        
     })
-
-
 
 })
